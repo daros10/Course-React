@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente GifGrid Debe de mostrar items cuando se hace la llamada con el useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    Rick and Morty
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <ol>
+      <GifGridItem
+        img={
+          Object {
+            "id": "abc",
+            "title": "dbz",
+            "url": "https://localhost/dbz.gif",
+          }
+        }
+        key="abc"
+      />
+    </ol>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en componente GifGrid Deberia mostar el componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    Rick and Morty
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p
+      className="animate__animated animate__flash"
+    >
+      Loading...
+    </p>
+    <ol />
+  </div>
+</Fragment>
+`;
